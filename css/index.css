@@ -1,0 +1,373 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Layer1 .modal-content
+{
+   background-color: #000000;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 6px;
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   opacity: 0.90;
+   margin: 0;
+   overflow: visible;
+}
+#Layer1.fade
+{
+   opacity: 1;
+   -webkit-transition: all 500ms linear;
+   transition: all 500ms linear;
+}
+#Layer1 .animate-show
+{
+   -webkit-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   -webkit-animation-name: transform-bounce;
+   animation-name: transform-bounce;
+}
+#Layer1 .animate-hide
+{
+   -webkit-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   -webkit-animation-name: transform-bounce;
+   animation-name: transform-bounce;
+   -webkit-animation-direction: reverse;
+   animation-direction: reverse;
+}
+#Layer1.modal
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#Layer1 .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#Layer1 .modal-open
+{
+   overflow: hidden;
+}
+#Layer1 .modal-dialog
+{
+   position: relative;
+   width: 501px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#Layer1 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#Layer1 .modal-header
+{
+   min-height: 16px;
+   padding: 15px 15px 15px 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#Layer1 .modal-footer
+{
+   padding: 15px 15px 15px 15px;
+   border-top: 1px solid #CCCCCC;
+}
+#Layer1 .modal-body
+{
+   position: relative;
+   width: 501px;
+   height: 250px;
+}
+#Layer1 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#Layer1 .modal-content
+{
+   margin: 0;
+   pointer-events: all;
+}
+#Layer1 .modal-title
+{
+   color: #CCCCCC;
+   font-size: 16px;
+   font-weight: 500;
+   margin: 0;
+}
+#Layer1 .modal-dialog
+{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   pointer-events: none;
+}
+#Layer1 .modal-dialog::before
+{
+   display: block;
+   height: calc(100vh);
+   content: "";
+}
+#Shape1
+{
+   width: 291px;
+   height: 39px;
+   background-color: #FFA500;
+   background-image: none;
+   border: 0px #0963AD solid;
+   border-radius: 10px;
+}
+#Shape1_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 1.72%;
+   top: 12.82%;
+   width: 95.88%;
+   height: 69.23%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont1
+{
+   height: 32px;
+   width: 56px;
+}
+#IconFont1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 32px;
+   line-height: 32px;
+   vertical-align: middle;
+   width: 31px;
+}
+#IconFont1:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Shape1
+{
+   position: absolute;
+   left: 104px;
+   top: 105px;
+   width: 291px;
+   height: 39px;
+   z-index: 0;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 188px;
+   top: 13px;
+   width: 123px;
+   height: 111px;
+   z-index: 1;
+}
+#wb_IconFont1
+{
+   position: absolute;
+   left: 433px;
+   top: 13px;
+   width: 56px;
+   height: 32px;
+   text-align: center;
+   z-index: 2;
+}
+#Layer1
+{
+   text-align: left;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Layer1 .modal-content
+{
+   visibility: hidden;
+   margin: 0;
+}
+#Layer1 .modal-dialog
+{
+   width: 317px;
+}
+#Layer1 .modal-content
+{
+   margin: 0;
+}
+#Layer1 .modal-body
+{
+   width: 317px;
+   height: 220px;
+}
+#wb_Shape1
+{
+   left: 21px;
+   top: 91px;
+   width: 276px;
+   height: 39px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#Shape1
+{
+   width: 276px;
+   height: 39px;
+}
+#wb_Image1
+{
+   left: 100px;
+   top: 9px;
+   width: 118px;
+   height: 105px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#Timer1
+{
+   left: 28px;
+   top: 460px;
+   width: 34px;
+   height: 38px;
+   visibility: visible;
+   display: inline;
+}
+#wb_IconFont1
+{
+   left: 268px;
+   top: 13px;
+   width: 40px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#IconFont1
+{
+   width: 40px;
+   height: 24px;
+}
+#IconFont1 i
+{
+   line-height: 24px;
+   font-size: 24px;
+   width: 23px;
+}
+}
